@@ -19,9 +19,7 @@ import org.springframework.data.redis.listener.Topic;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 import org.springframework.stereotype.Service;
 
-/**
- * @author Geoff Bourne
- */
+
 @Service
 public class SubscriptionManagement {
 

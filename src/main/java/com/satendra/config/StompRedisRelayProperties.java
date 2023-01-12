@@ -16,9 +16,6 @@ public class StompRedisRelayProperties {
 
     String redisChannelPrefix = "stomp:";
 
-    /**
-     * All message bodies published over Redis will be required to be this configured type.
-     */
     String contentType = "application/json";
 
     public int getPort() {
